@@ -1,0 +1,28 @@
+{
+  "name": "journalapp",
+  "version": "1.0.0",
+  "description": "Instant journaling application with activity and inventory tracking",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/anishbasu/journal"
+  },
+  "keywords": [
+    "journal",
+    "instant",
+    "tracking"
+  ],
+  "author": "Anish Basu",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "should": "^9.0.2",
+    "supertest": "^1.2.0"
+  }
+}
